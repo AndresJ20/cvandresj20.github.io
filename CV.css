@@ -1,9 +1,26 @@
 .contenedor {
     max-width: 50%;
     margin: 0 auto;
+    background-color: beige;
+    border-style: solid;
 }
 
-.border {
-    border-bottom: solid 3px;
-    color: black;
+.imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    background-color: cadetblue;
+}
+
+.imagen1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
